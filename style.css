@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #eee;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(109, 63, 25);
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+header nav {
+  padding-left: 1000px;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+header ul li {
+  margin: 20px;
+  color: white;
+}
+
+header img {
+  height: 80px;
+  justify-items: left;
+  padding-left: 20px;
+}
+
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(109, 63, 25);
+  margin-top: 3%;
+}
+
+.contenedor1 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 33%;
+  text-align: left;
+  border-color: rgb(109, 63, 25);
+  border-width: 2px;
+  border-style: solid;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  background-color: rgb(109, 63, 25);
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.card__info {
+  width: 60%;
+
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.card__img {
+  width: 40%;
+}
+.card__img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.6));
+}
+
+.contenedor2 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.card__info h2 {
+  font-size: 42px;
+}
+
+.card__info h3 {
+  font-size: 39px;
+}
+
+.card__info p {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: lighter;
+}
+
+.banner3 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: #f4d397;
+  margin-top: 3%;
+}
+
+.textobanner {
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+.textobanner h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(109, 63, 25);
+}
+
+.textobanner p {
+  font-size: 30px;
+  color: rgb(109, 63, 25);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+section {
+  display: flex;
+  width: 600px;
+  height: 430px;
+  padding-left: 28%;
+}
+
+section img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+
+section img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.banner4 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: rgb(109, 63, 25);
+  margin-top: 3%;
+}
+
+.textobanner4 {
+  font-size: 40px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-top: 10%;
+  padding-left: 9%;
+}
+
+.map {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+}
+
+footer {
+  background-color: #f4d397;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.textobanner img {
+  height: 150px;
+  padding-left: 15%;
+}
+
+.Bnner2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  padding: 10px 0;
+}
